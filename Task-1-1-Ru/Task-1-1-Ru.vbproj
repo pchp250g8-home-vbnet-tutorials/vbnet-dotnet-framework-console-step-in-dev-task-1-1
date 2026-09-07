@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{6B9A1474-C23F-48E9-A89A-495E4259EFC8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>StepInDev.Task_1_1_Rus.Module1</StartupObject>
-    <RootNamespace>StepInDev.Task_1_1_Rus</RootNamespace>
+    <StartupObject>StepInDev.Task_1_1_Ru.Module1</StartupObject>
+    <RootNamespace>StepInDev.Task_1_1_Ru</RootNamespace>
     <AssemblyName>Task-1-1-Ru</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Console</MyType>
