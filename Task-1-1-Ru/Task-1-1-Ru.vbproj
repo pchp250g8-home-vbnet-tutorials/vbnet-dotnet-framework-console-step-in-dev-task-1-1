@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3D470A47-BCA8-47A5-835B-1315EE1F7230}</ProjectGuid>
+    <ProjectGuid>{6B9A1474-C23F-48E9-A89A-495E4259EFC8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>StepInDev_Task_1_1_En.Module1</StartupObject>
-    <RootNamespace>StepInDev_Task_1_1_En</RootNamespace>
-    <AssemblyName>StepInDev-Task-1-1-En</AssemblyName>
+    <StartupObject>StepInDev.Task_1_1_Rus.Module1</StartupObject>
+    <RootNamespace>StepInDev.Task_1_1_Rus</RootNamespace>
+    <AssemblyName>Task-1-1-Ru</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Console</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -22,7 +22,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>StepInDev-Task-1-1-En.xml</DocumentationFile>
+    <DocumentationFile>Task-1-1-Ru.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -32,7 +32,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>StepInDev-Task-1-1-En.xml</DocumentationFile>
+    <DocumentationFile>Task-1-1-Ru.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -74,6 +74,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
